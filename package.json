@@ -1,0 +1,17 @@
+{
+  "name": "bruno",
+  "version": "1.0.0",
+  "description": "Brunubi <3",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ej01": "node src/models/ej01.js",
+    "ej02": "node src/models/ej02.js",
+    "ej03": "node src/models/ej03.js",
+    "ej04": "node src/models/ej04.js"
+
+  }
+}
