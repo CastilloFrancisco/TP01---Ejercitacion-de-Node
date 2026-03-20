@@ -11,7 +11,14 @@
     "ej01": "node src/models/ej01.js",
     "ej02": "node src/models/ej02.js",
     "ej03": "node src/models/ej03.js",
-    "ej04": "node src/models/ej04.js"
-
+    "ej04": "node src/models/ej04.js",
+    "ej05": "node src/models/ej05.js",
+    "ej06": "node src/models/ej06.js",
+    "ej07": "node src/models/ej07.js",
+    "ej08": "node src/models/ej08.js"
+  },
+  "dependencies": {
+    "axios": "^1.13.6",
+    "currency-map-country": "^1.0.12"
   }
 }
