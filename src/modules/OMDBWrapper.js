@@ -1,5 +1,18 @@
 import axios from "axios";
-const APIKEY = "7b62fa5d"; // Poné tu APIKEY, esta no funciona.
+const APIKEY = "e84efcd2"; // Poné tu APIKEY, esta no funciona.
+const Test = async () => {
+
+  // Esto solo busca ‘cars’
+
+  const requestString = `http://www.omdbapi.com/?apikey=e84efcd2&s=cars`;
+
+  const apiResponse = await axios.get(requestString);
+
+  return apiResponse.data;
+
+};
+
+
 const OMDBSearchByPage = async (searchText, page = 1) => {
 let returnObject = {
 respuesta : false,
