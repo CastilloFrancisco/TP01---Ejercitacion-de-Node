@@ -1,4 +1,3 @@
-import { getCountry } from 'currency-map-country';
 import { getCountryByAbbreviation } from 'currency-map-country';
 import { getCurrencyAbbreviation } from 'currency-map-country';
 

@@ -1,3 +1,4 @@
 import {Test} from '../modules/OMDBWrapper.js';
 
-Test();
+let a = await Test()
+console.log(a);
